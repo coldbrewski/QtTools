@@ -10,11 +10,11 @@ Each tool project contains at minimum the following:
     - Supplementary infomrmation (e.g. specific licensing) 
 
 # Configuration
-```All tools follow the following configuration principles where possible:
+All tools follow the following configuration principles where possible:
     - CMake is the preferred build tool, and is configurated to be compatable with Qt5 where applicable
     - Tool source development is designed (where practial) to be backwards compatible with Qt5
     - Addition CMake configuration files will be included in each tool directory and also available in its standalone cmake sub-directory of the QtTools repository
-```
+
 # Other
   - All tools are build using free and open-source software (e.g Qt Community Edition) and supplemetary assets (where applicable).
   - Any and all efforts will be made to ensure cross platform compatibilty where possible, resources permitting
