@@ -1,10 +1,10 @@
 # QtTools
-Custom tools built with the Qt language. 
-Tools for C++ and/or QML integration.
+<li>Custom tools built with the Qt language.</li> 
+<li>Tools for C++ and/or QML integration.</li>
 
 # Setup
-Each tool can be found in a sub-directory of the QtTools repository
-Each tool project contains at minimum the following
+<li>Each tool can be found in a sub-directory of the QtTools repository</li>
+<li>Each tool project contains at minimum the following:</li>
 <ul>
     <li>How to use</li>
     <li>Overview</li>
