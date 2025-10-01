@@ -1,0 +1,13 @@
+This document is an overview of the Screenshot tool developed in Qt.
+
+This is the simple version of the screenshot tool for QML.
+For the more advanced Screenshot tool which has the ability to inject metadata into the PNG file, visit
+the git repository: https://github.com/coldbrewski/QtTools.
+
+For instructions on how to use the tool, refer to the "howto.txt" file featured in the "Info" directory.
+
+OVERVIEW:
+This tool provides the ability to capture a screenshot of a QML screen at a specific time.
+The screenshot is of the ".PNG" format and can be exported to a default or user defined location on the system.
+
+Ideal for small applications requiring a basic screenshot component.

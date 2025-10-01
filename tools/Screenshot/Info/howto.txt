@@ -1,0 +1,2 @@
+This document covers the "HOW TO USE" for the Screenshot Qt tool.
+
