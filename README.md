@@ -4,13 +4,15 @@ Tools for C++ and/or QML integration.
 
 # Setup
 Each tool can be found in a sub-directory of the QtTools repository
-**Each tool project contains at minimum the following:**
-    - How to use
-    - Overview
-    - Supplementary infomrmation (e.g. specific licensing) 
+Each tool project contains at minimum the following
+<ul>
+    <li></li>How to use</li>
+    <li>Overview</li>
+    <li>Supplementary infomrmation (e.g. specific licensing)</li> 
+</ul>
 
 # Configuration
-**All tools follow the following configuration principles where possible:**
+All tools follow the following configuration principles where possible
     - CMake is the preferred build tool, and is configurated to be compatable with Qt5 where applicable
     - Tool source development is designed (where practial) to be backwards compatible with Qt5
     - Addition CMake configuration files will be included in each tool directory and also available in its standalone cmake sub-directory of the QtTools repository
