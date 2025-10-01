@@ -1,0 +1,29 @@
+# Git ignore components
+
+# Build
+*build/
+**/build/
+
+# CMake
+*.user
+*.user*
+*user
+
+# Confi
+*_p.conf
+
+# Env
+*.env
+
+# Javascript
+
+# QMake
+
+# Secrets
+*secret
+secret*
+secrets*
+*secrets*
+*.api
+*api
+*api*
