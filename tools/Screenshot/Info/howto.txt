@@ -1,2 +1,16 @@
-This document covers the "HOW TO USE" for the Screenshot Qt tool.
+************************* This document covers the "HOW TO USE" for the Screenshot Qt tool *************************
 
+--------------------------------------------------------------------------------------------------------------------
+                The screenshot tool works by taking a still image at an instant of the QQuickWindow.
+
+1. On creation of the app, the default paths and C++ functionality are built.
+2. Create an instance of teh Screenshotter on the QML side.
+3. When in qml, the setFilePath() function can have a string parsed as an argument at any point and will result
+   in updating of the file save path to the new specified path. This allows for dynamic setting by the user, e.g
+   a QML TextField return when you want the user to save to different paths of their choice.
+4. On triggering of the takeScreenshot() slot, the application window (i.e root) needs to be passed. This is required
+   so the Application Window is known and the function does not take an image of the entire primary screen.
+5. On activation of the takeScreenshot(*window), there will be a printout to the console specifying the name and
+   location of the saved image. This can be handled in any way the user wants (i.e. logged to a file, etc).
+
+--------------------------------------------------------------------------------------------------------------------

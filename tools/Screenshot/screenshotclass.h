@@ -2,7 +2,7 @@
 #define SCREENSHOTCLASS_H
 
 #include <QObject>
-#include <QImage>
+#include <QQuickWindow>
 
 class ScreenshotClass : public QObject
 {
@@ -16,12 +16,11 @@ public:
     QString filePath() const;
     void setFilePath(const QString &path);
 
-   Q_INVOKABLE void takeScreenshot();
+public slots:
+    void takeScreenshot(QQuickWindow* window);
 
 signals:
     void filePathChanged();
-
-private slots:
 
 private:
     QString m_filePath;

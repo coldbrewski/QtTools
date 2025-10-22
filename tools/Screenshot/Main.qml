@@ -8,7 +8,7 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Application Screenshot Tool")
 
     //--------------------------------------------------------------------------------------------------
     // Create some basic fill in the window and add a button for the screenshot tool
@@ -60,7 +60,7 @@ Window {
         onClicked:
         {
             // Set the screenshot functionality here:
-            screenshotUtil.takeScreenshot()
+            screenshotUtil.takeScreenshot(root)
             // Show when the screenshot button is clicked
             console.log("Screenshot button clicked")
         }
