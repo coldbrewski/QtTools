@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.28)
 
-project(Screenshot VERSION 0.1 LANGUAGES CXX)
+project(Screenshot
+    VERSION 1.0
+    DESCRIPTION "Screenshot tool for use in QML applications"
+    LANGUAGES CXX
+)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
